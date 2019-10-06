@@ -1,0 +1,10 @@
+spring:
+    jpa:
+        database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+        hibernate.ddl-auto: create-drop
+        show-sql: true
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        username: root
+        password: password
+        url: jdbc:mysql://localhost:3306/customer?createDatabaseIfNotExist=true
